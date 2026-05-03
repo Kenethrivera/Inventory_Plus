@@ -1,6 +1,6 @@
 -- LOCATION TABLE
 CREATE TABLE locations (
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY
     store_name VARCHAR(100) NOT NULL,
     location_name VARCHAR(100) NOT NULL,
     coordinates VARCHAR(100) NOT NULL
